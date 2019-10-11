@@ -1,0 +1,5 @@
+name: my-env
+channels:
+  - bioconda
+dependencies:
+  - subread=1.6.4
