@@ -1,6 +1,8 @@
-# FOR DEMONSTRATION ONLY: subread workflow with nextflow
+# subread workflow with nextflow
 
-  author: vivienne arnold and ricarda erhart
+## FOR DEMONSTRATION ONLY
+
+author: vivienne arnold and ricarda erhart
 
 
 ## Instructions
