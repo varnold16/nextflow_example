@@ -1,6 +1,6 @@
 # subread workflow with nextflow
 
-## FOR DEMONSTRATION ONLY
+### FOR DEMONSTRATION ONLY
 
 author: vivienne arnold and ricarda erhart
 
@@ -17,8 +17,7 @@ author: vivienne arnold and ricarda erhart
    - genome file (ftp://hgdownload.cse.ucsc.edu/goldenPath/mm10/chromosomes/chr1.fa.gz)
    - annotation file (ftp://ftp.ensembl.org/pub/release-98/gtf/mus_musculus/Mus_musculus.GRCm38.90.gtf.gz)
  
- * run with '$ nextflow run main.nf -resume'
-
-   or with '$ nextflow run main.nf -with-dag flowchart.png' to obtain DAG
-
-   (install graphviz with '$ sudo apt-get install graphviz'
+ * run options:
+   - standard: '$ nextflow run main.nf -resume'
+   - with DAG: '$ nextflow run main.nf -with-dag flowchart.png' to obtain DAG
+     (install graphviz with '$ sudo apt-get install graphviz')
